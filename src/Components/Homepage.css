@@ -1,0 +1,75 @@
+.HomeApp{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+.Navbar{
+    position: flex;
+    width: 1143px;
+    height: 80px;
+    left: 340px;
+    top: 0px;
+}
+.Coro{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 595px;
+    top: 116px;
+    background: black;
+    border-radius: 15px;
+}
+.menu{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 306px;
+    top: 22px;
+    background:  url(../images/image2.jpg);
+
+}
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(14, 13, 13);
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 17px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+  .corousel{
+      height: 300px;
+  }
+  .listbook{
+      height: 50%;
+  }
+  .body {
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
