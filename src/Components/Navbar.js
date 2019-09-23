@@ -57,18 +57,19 @@ class Navbarr extends Component{
       let ModalClose=()=>{
         this.setState({showModal: false})
       }
-      console.log(this.props)
         return(
             <Navbar bg="dark" variant="dark" expand="lg">
               <div id="mySidenav" className="sidenav">
                 <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav}>&times;</a>
                 <a href="#"><Link to='/explore'><i className="fas fa-search"></i>Explore</Link></a>
                 <a href="#"><Link><i class="fas fa-history"></i>History</Link></a>
+                <a href="#"><Link to='/donation'><i class="fas fa-people-carry"></i>Donation</Link></a>
+                <a href="#"><Link to='/request'><i class="fas fa-clipboard-list"></i>Request</Link></a>
                 <a href="#"><Link onClick={()=>this.setState({showModal: true})}><i class="fas fa-plus-circle"></i>Add Book</Link></a>
                 <Modaladd show={this.state.showModal} onHide={ModalClose} />
                 <a href="#"><Link onClick={this.redirect}><i class="fas fa-door-open"></i>Logout</Link></a>
               </div>
-            <Navbar.Brand href="#home" >
+            <Navbar.Brand  >
             <button type='button' id='sidebarCollapse' className='btn btn-info' onClick={this.openNav}>
               <i className='fas fa-align-justify' />
             </button> 

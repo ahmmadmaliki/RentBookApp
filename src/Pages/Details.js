@@ -57,7 +57,7 @@ class Details extends Component{
                     <div style={{fontSize: 50}}className="ellips" >
                         <Link to='/home' style={{color: "black"}}><i className="far fa-arrow-alt-circle-left"></i></Link>
                     </div>
-                    <div className="covermini"><img src={item.Image}></img></div>
+                    <div className="covermini"><img style={{backgroundSize: 'cover'}} src={item.Image}></img></div>
                     
                     <Link className="edit" onClick={()=>this.setState({showModalEdit: true})}>Edit</Link>
                         <Modaledit show={this.state.showModalEdit} onHide={editModalClose} book={item}/>

@@ -45,7 +45,7 @@
   /* Side navigation links */
   .sidenav a {
     color: white;
-    padding: 17px;
+    padding: 0px;
     text-decoration: none;
     display: block;
   }
@@ -68,8 +68,11 @@
       height: 50%;
   }
   .body {
+    position: relative;
     margin: 0;
     margin-left: 0;
     margin-right: 0;
+    padding: 0px;
+    height: 100%;
   }
   

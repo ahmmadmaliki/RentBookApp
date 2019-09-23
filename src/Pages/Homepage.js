@@ -12,7 +12,7 @@ class Homepage extends Component{
       <div id="main" className="body">
              <Navbarr />
                   <CarouselSide />
-                  <p style={{fontSize: 23,marginLeft: 10 }}><b>Book List</b></p>
+                  <p style={{fontSize: 23,marginLeft: 0 }}><b>Book List</b></p>
                   
                    <Book />
              

@@ -11,12 +11,12 @@ class Book extends Component{
   };
 render(){
     return(
-    <Row>
+    <Row style={{justifyContent:'center'}}>
     {this.props.book.BookList.length >0 ?
       this.props.book.BookList.map((item, index) =>{ 
       return(
-        <Col>
-          <Card style={{ width: '15rem', height: '23rem'}}>
+        <Col >
+          <Card style={{ width: '15rem', height: '23rem',marginBottom: 20,marginLeft: 20}}>
           <Card.Img variant="top" src={item.Image} height={170} />
           <Card.Body>
             <Card.Title>{item.Title}</Card.Title>
